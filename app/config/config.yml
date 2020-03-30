@@ -94,7 +94,7 @@ sensio_framework_extra:
 # FOSUserBundle Configuration
 fos_user:
     db_driver: orm # other valid values are 'mongodb' and 'couchdb'
-    firewall_name: main
+    firewall_name: dev
     user_class: AppBundle\Entity\User
     from_email:
         address: "%mailer_user%"

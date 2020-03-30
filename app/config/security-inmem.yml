@@ -18,8 +18,8 @@ security:
         users_in_memory:
             memory:
                 users:
-                    user:  { password: userpass, username_canonical: user,roles: [ 'ROLE_USER' ] }
-                    admin: { password: adminpass, username_canonical: admin, roles: [ 'ROLE_ADMIN' ] }
+                    user:  { password: userpass, roles: [ 'ROLE_USER' ] }
+                    admin: { password: adminpass, roles: [ 'ROLE_ADMIN' ] }
         fr3d_ldapbundle:
             id: fr3d_ldap.security.user.provider
         fos_userbundle:
